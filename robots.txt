@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fluxora.dev/sitemap.xml
