@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monetization Optimizer Kit — Fluxora Studio</title>
+  <meta name="description" content="Drop-in monetization for Roblox: upsell prompts, A/B price tests, and analytics. Zero servers, one config.">
+  <link rel="icon" href="/assets/logo.svg">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#0b0c10;color:#eaf0f6}
+    .wrap{max-width:980px;margin:0 auto;padding:48px 24px}
+    header{display:flex;align-items:center;gap:12px}
+    header img{width:28px;height:28px}
+    header a{margin-left:auto;color:#9ecbff;text-decoration:none}
+    h1{font-size:40px;margin:20px 0 10px}
+    p{opacity:.92;line-height:1.6}
+    .badge{display:inline-block;background:#1f6feb;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;letter-spacing:.3px}
+    .cta{display:inline-block;margin-top:18px;padding:12px 18px;border-radius:10px;background:#1f6feb;color:#fff;text-decoration:none}
+    .ghost{background:transparent;border:1px solid #1f6feb;color:#9ecbff;margin-left:10px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0}
+    .card{background:#11151b;border:1px solid #1f2937;border-radius:12px;padding:18px}
+    .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:24px 0}
+    .shots img{width:100%;border-radius:10px;border:1px solid #1f2937;background:#0d1117}
+    .list{margin:0;padding-left:18px;opacity:.95}
+    footer{margin-top:48px;opacity:.7}
+    a{color:#9ecbff}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="/assets/logo.svg" alt="Fluxora logo">
+      <strong>Fluxora Studio</strong>
+      <a href="/">← Back to Studio</a>
+    </header>
+
+    <span class="badge">Zero servers • One config</span>
+    <h1>Monetization Optimizer Kit</h1>
+    <p>Drop-in upsell prompts, A/B price tests, and revenue analytics — all Roblox-native. Set up in minutes, increase ARPDAU this week.</p>
+    <div>
+      <a class="cta" href="https://create.roblox.com/marketplace/asset/PLUGIN_ID_HERE" target="_blank" rel="noopener">Get the Plugin</a>
+      <a class="cta ghost" href="/docs">Read the Docs</a>
+    </div>
+
+    <div class="shots">
+      <img src="/assets/screenshots/mok-wizard.png" alt="Setup Wizard">
+      <img src="/assets/screenshots/mok-prompt.png" alt="Prompt Builder">
+      <img src="/assets/screenshots/mok-experiments.png" alt="Experiments">
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>What you get</h3>
+        <ul class="list">
+          <li>Polished modals/banners/toasts with cooldowns & frequency caps</li>
+          <li>A/B allocator (sticky per user) + staged rollouts</li>
+          <li>Purchase logging & on-demand analytics (DataStore-based)</li>
+          <li>CSV export (local) — no external servers required</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Setup (2 steps)</h3>
+        <ol class="list">
+          <li>Insert <code>MonetizationKit.rbxm</code> into your place</li>
+          <li>Fill <code>MOK_Config</code> with your Dev Product ID(s)</li>
+        </ol>
+        <p>Done. Prompts render & purchases log automatically.</p>
+      </div>
+      <div class="card">
+        <h3>Why it works</h3>
+        <p>Most games guess prices and timing. MOK runs disciplined prompts and price tests with guardrails — lifting ARPDAU without hurting UX.</p>
+      </div>
+      <div class="card">
+        <h3>What’s inside</h3>
+        <ul class="list">
+          <li>Runtime modules (Server/Client)</li>
+          <li>UI templates & config presets</li>
+          <li>Studio plugin (setup, analytics, exports)</li>
+          <li>Sample place & quickstart</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="shots">
+      <img src="/assets/screenshots/mok-ingame.png" alt="In-game modal">
+      <img src="/assets/screenshots/mok-analytics.png" alt="Analytics">
+      <img src="/assets/screenshots/mok-experiments.png" alt="Experiments again">
+    </div>
+
+    <footer>
+      Need help? <a href="mailto:support@fluxora.dev">support@fluxora.dev</a> · <a href="/changelog">Changelog</a>
+    </footer>
+  </div>
+</body>
+</html>
